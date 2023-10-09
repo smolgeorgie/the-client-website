@@ -3,74 +3,197 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>hand-en footprint overzicht</title>
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
 
   <body>
-    <h1>Handprint & Footprint Overzicht</h1>
+    <header>
+      <h1>Handprint & Footprint Overzicht</h1>
+    </header>
+
+    <!-- color navigation -->
     <section class="colornav">
       <article>blok</article>
       <article>slecht</article>
       <article>goed</article>
     </section>
+
+    <!-- footprint image -->
     <section class="footprint">
-      <h2>Footprint</h2>
       <article>
-        <svg
-          height="400"
-          width="400"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 489.978 489.978"
-          xml:space="preserve"
-        >
-          <path
-            d="M184.231 239.9c43.9 23.3 64.5 75.4 49.8 123.3-2.7 8.6-5.1 17.5-7 26.4-7.8 40 2.7 90.2 46.7 99.1 22.2 4.7 44.3-3.9 59.9-20.2 46.5-50.5 32.3-202.6 31.9-240.7 0-16.7-.4-33.8-7-49.4-14.8-35-56.4-49-93.3-58.7-60.6-22.1-98.8 5.8-111.6 26.4s-22.1 66.4 30.6 93.8z"
-          />
-          <ellipse cx="141.831" cy="44.3" rx="31.5" ry="44.3" />
-          <ellipse cx="214.631" cy="51.7" rx="18.7" ry="26.4" />
-          <ellipse cx="272.931" cy="68" rx="16.7" ry="23.3" />
-          <ellipse cx="326.131" cy="81.7" rx="14.8" ry="20.6" />
-          <ellipse
-            transform="rotate(101.619 366.202 109.217)"
-            cx="366.2"
-            cy="109.218"
-            rx="18.3"
-            ry="13.2"
-          />
-        </svg>
+        <div class="svg-container">
+          <svg
+            height="500"
+            width="400"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 489.978 489.978"
+            xml:space="preserve"
+          >
+                      <path
+                d="M184.231 239.9c43.9 23.3 64.5 75.4 49.8 123.3-2.7 8.6-5.1 17.5-7 26.4-7.8 40 2.7 90.2 46.7 99.1 22.2 4.7 44.3-3.9 59.9-20.2 46.5-50.5 32.3-202.6 31.9-240.7 0-16.7-.4-33.8-7-49.4-14.8-35-56.4-49-93.3-58.7-60.6-22.1-98.8 5.8-111.6 26.4s-22.1 66.4 30.6 93.8z"
+              />
+              <ellipse cx="141.831" cy="44.3" rx="31.5" ry="44.3" />
+              <ellipse cx="214.631" cy="51.7" rx="18.7" ry="26.4" />
+              <ellipse cx="272.931" cy="68" rx="16.7" ry="23.3" />
+              <ellipse cx="326.131" cy="81.7" rx="14.8" ry="20.6" />
+              <ellipse
+                transform="rotate(101.619 366.202 109.217)"
+                cx="366.2"
+                cy="109.218"
+                rx="18.3"
+                ry="13.2"
+              />
+          </svg>
+        </div>
+        <div class="text-container">
+          <p class="styled-text">Fatih is de beste</p>
+        </div>
       </article>
     </section>
-    <!--<section>
-      <article class="summary">
-        <h3>Summary & Tips</h3>
-        <p>ipsum titel tekst etc</p>
-        <details>ipsum extra tekst hier om uit te kunnen klappen</details>
+
+        <!-- footprint image -->
+        <section class="footprint">
+          <article>
+            <div class="svg-container">
+              <svg
+                height="500"
+                width="400"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 489.978 489.978"
+                xml:space="preserve"
+              >
+                          <path
+                    d="M184.231 239.9c43.9 23.3 64.5 75.4 49.8 123.3-2.7 8.6-5.1 17.5-7 26.4-7.8 40 2.7 90.2 46.7 99.1 22.2 4.7 44.3-3.9 59.9-20.2 46.5-50.5 32.3-202.6 31.9-240.7 0-16.7-.4-33.8-7-49.4-14.8-35-56.4-49-93.3-58.7-60.6-22.1-98.8 5.8-111.6 26.4s-22.1 66.4 30.6 93.8z"
+                  />
+                  <ellipse cx="141.831" cy="44.3" rx="31.5" ry="44.3" />
+                  <ellipse cx="214.631" cy="51.7" rx="18.7" ry="26.4" />
+                  <ellipse cx="272.931" cy="68" rx="16.7" ry="23.3" />
+                  <ellipse cx="326.131" cy="81.7" rx="14.8" ry="20.6" />
+                  <ellipse
+                    transform="rotate(101.619 366.202 109.217)"
+                    cx="366.2"
+                    cy="109.218"
+                    rx="18.3"
+                    ry="13.2"
+                  />
+              </svg>
+            </div>
+
+            <div class="text-container">
+              <article class="summary">
+                <h3>Summary & Tips</h3>
+                <p>ipsum titel tekst etc</p>
+                <details>ipsum extra tekst hier om uit te kunnen klappen</details>
+              </article>
+              <article class="summary">
+                <h3>Summary & Tips</h3>
+                <p>ipsum titel tekst etc</p>
+                <details>ipsum extra tekst hier om uit te kunnen klappen</details>
+              </article>
+              <article class="summary">
+                <h3>Summary & Tips</h3>
+                <p>ipsum titel tekst etc</p>
+                <details>ipsum extra tekst hier om uit te kunnen klappen</details>
+              </article>
+              <article class="summary">
+                <h3>Summary & Tips</h3>
+                <p>ipsum titel tekst etc</p>
+                <details>ipsum extra tekst hier om uit te kunnen klappen</details>
+              </article>
+              <article class="summary">
+                <h3>Summary & Tips</h3>
+                <p>ipsum titel tekst etc</p>
+                <details>ipsum extra tekst hier om uit te kunnen klappen</details>
+              </article>
+            </div>
+          </article>
+        </section>
+
+        <section class="handprint">
+          <article>
+            <div class="svghand-container">
+              <svg
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              width="400"
+              height="400"
+              viewBox="0, 0, 1000, 1339"
+            >
+              <g id="Layer_1">
+                <path
+                  d="M339,214 Q350,217 357,224 Q365,232 379,263 Q393,295 417,374 Q441,453 454,514 C454,514 467.371,573.25 468,575 C468.629,576.75 470.129,577.5 472.879,577 C475.629,576.5 475,572 475,572 L466,511 Q457,450 438,377 Q420,304 416,278 Q412,252 416,242 Q420,232 432,224 Q444,217 459,221 Q474,225 484,235 Q495,246 507,272 Q519,298 534,348 Q549,398 564,468 Q580,539 583,572 Q587,605 604,644 Q621,683 639,709 Q658,736 674,752 Q691,768 698,767 Q705,766 713,756 Q722,747 749,686 Q776,625 792,606 Q808,587 825,574 Q842,561 859,554 Q877,547 894,547 Q911,547 919,553 Q927,560 926,567 Q926,574 912,599 Q898,624 874,690 Q850,757 847,772 Q845,788 847,798 Q849,808 848,839 Q847,871 843,882 Q840,893 795,968 Q751,1044 727,1072 Q703,1100 704,1126 Q705,1153 722,1245 L739,1338 L582,1338 L426,1338 L427,1308 Q428,1279 422,1246 Q417,1213 397,1180 Q378,1147 345,1103 Q312,1060 292,1025 Q273,991 251,934 Q230,878 218,830 Q206,783 157,683 Q108,584 100,560 Q92,536 92,524 Q92,513 102,502 Q112,492 119,491 Q126,490 133,493 Q141,496 207,606 C207,606 269.871,711.75 273,716 C276.129,720.25 301.621,732.75 294,694 Q286.379,655.25 294,694 Q294,677 230,520 C230,520 174.758,394 170.758,376.5 C166.758,359 168,351 168,351 Q170,339 177,332 Q184,326 196,322 Q209,319 216,321 Q224,324 230,330 Q236,337 244,358 Q253,380 297,467 Q341,554 352,587 C352,587 361.121,615.5 364,620 C366.879,624.5 379.871,635.5 377,612 Q374.129,588.5 377,612 Q377,601 359,528 Q342,455 314,357 C314,357 294.758,292.5 290.758,274 C286.758,255.5 288.758,242.5 288.758,242.5 C296.758,224.5 298.742,221.5 315,217 C331.258,212.5 339,214 339,214 z"
+                  stroke="#000000"
+                  stroke-width="1"
+                />
+              </g>
+              <defs />
+            </svg>
+              </svg>
+            </div>
+            <div class="text1-container">
+              <article class="summary">
+                <h3>Summary & Tips</h3>
+                <p>ipsum titel tekst etc</p>
+                <details>ipsum extra tekst hier om uit te kunnen klappen</details>
+              </article>
+              <article class="summary">
+                <h3>Summary & Tips</h3>
+                <p>ipsum titel tekst etc</p>
+                <details>ipsum extra tekst hier om uit te kunnen klappen</details>
+              </article>
+              <article class="summary">
+                <h3>Summary & Tips</h3>
+                <p>ipsum titel tekst etc</p>
+                <details>ipsum extra tekst hier om uit te kunnen klappen</details>
+              </article>
+              <article class="summary">
+                <h3>Summary & Tips</h3>
+                <p>ipsum titel tekst etc</p>
+                <details>ipsum extra tekst hier om uit te kunnen klappen</details>
+              </article>
+              <article class="summary">
+                <h3>Summary & Tips</h3>
+                <p>ipsum titel tekst etc</p>
+                <details>ipsum extra tekst hier om uit te kunnen klappen</details>
+              </article>
+            </div>
+          </article>
+        </section>
       </article>
-      <article class="summary">
-        <h3>Summary & Tips</h3>
-        <p>ipsum titel tekst etc</p>
-        <details>ipsum extra tekst hier om uit te kunnen klappen</details>
-      </article>
-      <article class="summary">
-        <h3>Summary & Tips</h3>
-        <p>ipsum titel tekst etc</p>
-        <details>ipsum extra tekst hier om uit te kunnen klappen</details>
-      </article>
-      <article class="summary">
-        <h3>Summary & Tips</h3>
-        <p>ipsum titel tekst etc</p>
-        <details>ipsum extra tekst hier om uit te kunnen klappen</details>
-      </article>
-      <article class="summary">
-        <h3>Summary & Tips</h3>
-        <p>ipsum titel tekst etc</p>
-        <details>ipsum extra tekst hier om uit te kunnen klappen</details>
-      </article>
-    </section>
-  -->
-    <section class="handprint">
-      <h2>Handprint</h2>
+      <!-- <div class="footprint-info">
+        <article class="summary">
+          <h3>Summary & Tips</h3>
+          <p>ipsum titel tekst etc</p>
+          <details>ipsum extra tekst hier om uit te kunnen klappen</details>
+        </article>
+        <article class="summary">
+          <h3>Summary & Tips</h3>
+          <p>ipsum titel tekst etc</p>
+          <details>ipsum extra tekst hier om uit te kunnen klappen</details>
+        </article>
+        <article class="summary">
+          <h3>Summary & Tips</h3>
+          <p>ipsum titel tekst etc</p>
+          <details>ipsum extra tekst hier om uit te kunnen klappen</details>
+        </article>
+        <article class="summary">
+          <h3>Summary & Tips</h3>
+          <p>ipsum titel tekst etc</p>
+          <details>ipsum extra tekst hier om uit te kunnen klappen</details>
+        </article>
+        <article class="summary">
+          <h3>Summary & Tips</h3>
+          <p>ipsum titel tekst etc</p>
+          <details>ipsum extra tekst hier om uit te kunnen klappen</details>
+        </article>
+      </div> -->
+    <!-- </section> -->
+    <!-- handprint image -->
+     <!-- <section class="handprint">
       <article>
         <svg
           version="1.1"
@@ -91,34 +214,37 @@
           </g>
           <defs />
         </svg>
-      </article>
+        <div class="text-container">
+          <p class="styled-text">Fatih is de beste</p>
+        </div>
+      </article>  -->
+      <!-- <div class="handprint-info">
+        <article class="summary">
+          <h3>Summary & Tips</h3>
+          <p>ipsum titel tekst etc</p>
+          <details>ipsum extra tekst hier om uit te kunnen klappen</details>
+        </article>
+        <article class="summary">
+          <h3>Summary & Tips</h3>
+          <p>ipsum titel tekst etc</p>
+          <details>ipsum extra tekst hier om uit te kunnen klappen</details>
+        </article>
+        <article class="summary">
+          <h3>Summary & Tips</h3>
+          <p>ipsum titel tekst etc</p>
+          <details>ipsum extra tekst hier om uit te kunnen klappen</details>
+        </article>
+        <article class="summary">
+          <h3>Summary & Tips</h3>
+          <p>ipsum titel tekst etc</p>
+          <details>ipsum extra tekst hier om uit te kunnen klappen</details>
+        </article>
+        <article class="summary">
+          <h3>Summary & Tips</h3>
+          <p>ipsum titel tekst etc</p>
+          <details>ipsum extra tekst hier om uit te kunnen klappen</details>
+        </article>
+      </div> -->
     </section>
-    <!--<section>
-      <article class="summary">
-        <h3>Summary & Tips</h3>
-        <p>ipsum titel tekst etc</p>
-        <details>ipsum extra tekst hier om uit te kunnen klappen</details>
-      </article>
-      <article class="summary">
-        <h3>Summary & Tips</h3>
-        <p>ipsum titel tekst etc</p>
-        <details>ipsum extra tekst hier om uit te kunnen klappen</details>
-      </article>
-      <article class="summary">
-        <h3>Summary & Tips</h3>
-        <p>ipsum titel tekst etc</p>
-        <details>ipsum extra tekst hier om uit te kunnen klappen</details>
-      </article>
-      <article class="summary">
-        <h3>Summary & Tips</h3>
-        <p>ipsum titel tekst etc</p>
-        <details>ipsum extra tekst hier om uit te kunnen klappen</details>
-      </article>
-      <article class="summary">
-        <h3>Summary & Tips</h3>
-        <p>ipsum titel tekst etc</p>
-        <details>ipsum extra tekst hier om uit te kunnen klappen</details>
-      </article>
-    </section>-->
   </body>
 </html>
