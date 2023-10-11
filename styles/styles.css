@@ -170,6 +170,12 @@ h2 {
   font-size: 14px;
 }
 
+.summary1 {
+  line-height: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 14px;
+}
+
 .summary h3 {
   line-height: 30px;
 }
