@@ -42,20 +42,28 @@ p {
   grid-area: colornav;
   display: grid;
   justify-content: center;
+  height: 29rem;
+  width: 6rem;
+  background-image: linear-gradient(green, orange, red);
+  border-radius: 15px;
+  margin-left: 3em;
 }
 
-.colornav article:first-child {
-  height: 31rem;
-  width: 6rem;
-  background-image: linear-gradient(red, orange, green);
-  border-radius: 15px;
-  color: red;
+.colornav article {
+  display: none;
+  color: black;
+  text-align: right;
+  margin-left: 3em;
+}
+
+h2 {
+  display: none;
 }
 
 .footprint {
   grid-area: footprint;
   text-align: center;
-  background-color: white;
+  background-color: lightgrey;
   width: 37rem;
   height: 31rem;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
@@ -70,11 +78,16 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
+}
+
+.footprint:hover {
+  background-color: white;
 }
 
 .footprint svg {
-  fill: green;
-  filter: drop-shadow(3px 5px 5px lightgreen);
+  fill: red;
+  filter: drop-shadow(3px 5px 5px rgb(234, 165, 146));
 }
 
 /* .footprint article:first-child {
@@ -86,7 +99,7 @@ p {
 .handprint {
   grid-area: handprint;
   text-align: center;
-  background-color: white;
+  background-color: lightgrey;
   width: 37rem;
   height: 31rem;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
@@ -96,16 +109,22 @@ p {
   backdrop-filter: blur(5px);
 }
 
-/* footprint flexbox */
+/* handprint flexbox */
 .handprint {
   display: flex;
+  flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
+}
+
+.handprint:hover {
+  background-color: white;
 }
 
 .handprint svg {
-  fill: red;
-  filter: drop-shadow(3px 5px 5px coral);
+  fill: green;
+  filter: drop-shadow(3px 5px 5px lightgreen);
 }
 
 /* .handprint article:first-child {
@@ -115,15 +134,17 @@ p {
 } */
 
 .svg-container {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0.5em;
 }
 
 .svghand-container {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0.5em;
 }
 
 .text-container {
@@ -137,19 +158,24 @@ p {
   font-weight: bold;
 }
 
-.handprint {
+.handprint-image {
   display: inline-block;
   vertical-align: middle;
   margin-right: 20px;
 }
 
-.text1-container {
-  display: inline-block;
-  vertical-align: middle;
+.summary {
+  line-height: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 14px;
 }
 
-.styled1-text {
-  font-size: 18px;
-  color: #333;
-  font-weight: bold;
+.summary h3 {
+  line-height: 30px;
+}
+
+.summary details {
+  line-height: 1rem;
+  cursor: pointer;
+  max-width: 50ch;
 }
