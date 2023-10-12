@@ -12,7 +12,7 @@ Hand- en Footprint overview - Crossmarx.
 
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-![Alt text](image.png)
+![Alt text](image-1.png)
 🌐 https://smolgeorgie.github.io/the-client-website 
 
 ## Kenmerken
