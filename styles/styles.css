@@ -71,13 +71,14 @@ h2 {
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   border-radius: 40px;
   backdrop-filter: blur(5px);
+  overflow: hidden;
 }
 
 /* footprint flexbox*/
 .footprint {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   gap: 1rem;
 }
 
@@ -90,12 +91,6 @@ h2 {
   filter: drop-shadow(3px 5px 5px rgb(234, 165, 146));
 }
 
-/* .footprint article:first-child {
-  height: 30rem;
-  width: 25rem;
-  position: absolute;
-} */
-
 .handprint {
   grid-area: handprint;
   text-align: center;
@@ -107,14 +102,15 @@ h2 {
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   border-radius: 40px;
   backdrop-filter: blur(5px);
+  overflow: hidden;
 }
 
 /* handprint flexbox */
 .handprint {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: center;
   align-items: center;
+  justify-self: center;
   gap: 1rem;
 }
 
@@ -127,61 +123,45 @@ h2 {
   filter: drop-shadow(3px 5px 5px lightgreen);
 }
 
-/* .handprint article:first-child {
-  height: 30rem;
-  width: 25rem;
-  position: absolute;
-} */
-
 .svg-container {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin: 0.5em;
+  margin: 1em;
 }
 
 .svghand-container {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin: 0.5em;
+  margin: 1em;
 }
 
 .text-container {
-  display: inline-block;
-  vertical-align: middle;
+  width: 18rem;
+  height: 22rem;
 }
 
-.styled-text {
-  font-size: 18px;
-  color: #333;
-  font-weight: bold;
+h3 {
+  font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica,
+    sans-serif;
+  font-size: 28px;
+  margin: 0.5em;
+  height: 2rem;
+  text-align: center;
+  color: black;
 }
 
-.handprint-image {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 20px;
+h4 {
+  font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica,
+    sans-serif;
+  font-size: 1, 5rem;
+  margin: 0.5em;
+  text-align: center;
+  line-height: 0, 5rem;
+  color: black;
 }
 
-.summary {
-  line-height: 2rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 14px;
-}
-
-.summary1 {
-  line-height: 2rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 14px;
-}
-
-.summary h3 {
-  line-height: 30px;
-}
-
-.summary details {
-  line-height: 1rem;
+details {
   cursor: pointer;
-  max-width: 50ch;
 }
